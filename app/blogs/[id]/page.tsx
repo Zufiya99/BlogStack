@@ -30,7 +30,7 @@ const Page = ({ params }: { params: Params }) => {
 
   useEffect(() => {
     fetchBlogData();
-  }, []);
+  }, [params.id]);
 
   return data ? (
     <>

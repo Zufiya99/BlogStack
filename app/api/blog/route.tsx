@@ -1,5 +1,6 @@
-// Import dotenv and load environment variables
-require("dotenv").config();
+import dotenv from 'dotenv';
+
+dotenv.config();
 
 // Import necessary modules and functions
 import { connectDB } from "@/lib/config/db"; // Ensure this import path is correct
