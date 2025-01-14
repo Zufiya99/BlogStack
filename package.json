@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@netlify/plugin-nextjs": "^5.9.3",
     "axios": "^1.7.7",
     "dotenv": "^16.4.5",
     "mongoose": "^8.8.0",
